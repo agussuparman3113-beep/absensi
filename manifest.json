@@ -1,11 +1,15 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
+  "name": "ABSEN MTS TUHARBA",
+  "short_name": "ABSEN MTS",
+  "description": "Aplikasi absensi berbasis barcode — data tersimpan di browser.",
+  "start_url": "./index.html",
   "display": "standalone",
-  "name": "agussuparman3113-beep.github",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "agussuparman3113-beep.github",
-  "start_url": "/",
-  "theme_color": "#ffffff"
+  "background_color": "#111827",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "scope": "./",
+  "orientation": "portrait"
 }
